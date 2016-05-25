@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+  <!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+  <!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie-7" lang="en"> <![endif]-->
+  <!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie-8" lang="en"> <![endif]-->
+  <!--[if IE 9]>    <html class="no-js lt-ie10 ie-9" lang="en"> <![endif]-->
+  <!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lasso - reach your OTA guests and service them like your own</title>
+
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+    <link href="css/application.css" media="all" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300|Montserrat:400,700" media="screen" rel="stylesheet" />
+
+    <script src="js/libs.js"></script>
+    <script src="js/application.js"></script>
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        function resizeHero() {
+    $('#hero').css('min-height', $(window).height() + 'px');
+  }
+
+    </script>
+
+  </head>
+  <body>
+
+    <section id="content">
+      <article>
+
+<section id="hero">
+  <div class="row collapse text-center">
+    <div class="small-10 medium-8 small-centered columns">
+      <img alt="Logo large" class="logo" src="img/logo.png" />
+      <h3>Lasso has gone up to the great rodeo in the sky. It had a good couple
+        years roping in many guest emails but unfortunately now is time to say
+        goodbye. If you would like to learn more about alternatives we offer plus
+        reach out to us below.</h3>
+
+        <a class="large button radius" href="mailto:info@guestfolio.com">Email Us!</a>
+
+    </div>
+  </div>
+</section>
+
+    <script type="text/javascript">
+      $(function() {
+        $(document).foundation({
+          orbit: {
+            slide_number: false
+          }
+        });
+
+        $(window).resize(function() {
+          resizeHero();
+        });
+
+        resizeHero();
+        smoothScroll.init();
+      });
+    </script>
+  </body>
+</html>
